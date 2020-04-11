@@ -1,0 +1,33 @@
+
+.nav-item a 
+{
+    font-size: 22px;
+    padding: 20px 8px 10px;
+    text-align: right;
+}
+
+.nav-link:hover 
+{
+   color: darkblue; 
+}
+.nav-link:active
+{
+    color: white;
+}
+
+.row
+{
+   background-color: lightgray;
+   border-bottom: black;
+}
+.col-md-2
+{
+    background-color: blue;
+}
+h1
+{
+    font-size: 22px;
+    color: white;
+    padding: 20px 5px 10px;
+    text-align: center;
+}
