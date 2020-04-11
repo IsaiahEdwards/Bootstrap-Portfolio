@@ -1,7 +1,22 @@
+body
+{
+    background: #4B79A1; 
+background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  
+background: linear-gradient(to right, #283E51, #4B79A1); 
+}
+
+.sideways
+{
+    writing-mode: vertical-rl;
+text-orientation: upright;
+color: white;
+font-size: 42px;
+
+}
 
 .nav-item a 
 {
-    font-size: 22px;
+    font-size: 20px;
     padding: 20px 8px 10px;
     text-align: right;
 }
@@ -15,19 +30,28 @@
     color: white;
 }
 
-.row
+header
 {
-   background-color: lightgray;
+   background-color: darkgray;
    border-bottom: black;
+   
 }
-.col-md-2
+
+.name
 {
-    background-color: blue;
-}
-h1
-{
-    font-size: 22px;
-    color: white;
+    font-size: 20px;
+    color: #007bff;
     padding: 20px 5px 10px;
     text-align: center;
+}
+
+h5
+{
+    color: #007bff;
+}
+
+.card
+{
+    padding: 20px;
+    margin: 10px;
 }
