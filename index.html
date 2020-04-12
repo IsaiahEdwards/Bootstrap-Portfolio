@@ -1,92 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bio</title>
+    <!--reset-->
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--link to boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="custom.css">
-</head>
+    <!--Link to Css Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="indexcustom.css">
+  </head>
 
-<body>
+  <body>
+    <!-- start of header-->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                   <h1 class="name">Isaiah Edwards</h1>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-5 offset-md-4">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#">Active</a>
+      <!--grid-->
+      <div class="container">
+          <div class="row">
+              <!--name-->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h1 class="name">Isaiah Edwards</h1>
+              </div>
+              <!--nav bar-->
+              <div class="col-xs-12 col-sm-6 col-md-5 offset-md-4">
+                  <ul class="nav justify-content-center">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Bio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="contact.html">Contacts</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contacts</a>
-                        </li>
-                      </ul>
-                </div>
+                    </ul>
+              </div>
             </div>
           </div>
     </header>
-    
-    
-    <div class="about">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-md-1 col-xs-1">
-            <div class="sideways">
-              <h1>BIOGRAPHY</h1>
-            </div>
-          </div>
-          <div class="col-xs-11 col-md-4 offset-md-1">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Bio</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">in works</a>
-              </div>
-            </div>
-          </div>
-
-          
-            <div class="col-xs-11 col-md-4 offset-md-1">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bio</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">in</a>
+    <!--grid-->
+    <div class="container">
+      <div class="row">
+        <!--card 1 of 2-->
+        <div class="col-xs-12 col-md-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+                  <img src="#" class="card-img" alt="PlaceHolder">
+                </div><!--bio info-->
+                  <div class="card-body">
+                    <h5 class="card-title">Biography</h5>
+                    <p class="card-text">My name is Isaiah Edwards and I'm a brand new programmer in the sacramento area. I completed 4 honorable years in the Air Force and looking for a new challenge to take on!</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
-              </div>
             </div>
-      
-        
-        
-        
-        
-        
-        
-        
+        <!--card 2 of 2-->
+        <div col="col-xs-12 col-md-1 offset-md-5">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              <!--Skills-->
+              <strong>Skills</strong>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> html</Html></li>
+              <li class="list-group-item">Css</li>
+              <li class="list-group-item">Javascript</li>
+            </ul>
           </div>
-
+        </div>
+      
       </div>
     </div>
     
-
-
-
-
-</body>
-
-
-
-
+  <!--footer-->  
+  <footer>
+      <!--grid-->  
+    <div class="container">
+          <div class="row">
+            <!--box and info-->  
+            <div class="col-12">
+                  <div class="box">
+                      <p id="footerp">Posted by Isaiah Edwards:
+                      <a href="IsaiaheEdwards@gmail.com"> IsaiaheEdwards@gmail.com</a>.
+                      </p>
+                  </div>
+                      
+              </div>
+          </div>
+      </div>
+  </footer>
+  </body>
 </html>

@@ -1,0 +1,76 @@
+/* body */
+body
+{
+    background: rgb(10,20,134);
+background: linear-gradient(90deg, rgba(10,20,134,1) 0%, rgba(58,71,238,1) 45%, rgba(110,228,252,1) 100%);
+}
+
+/* nav */
+.nav-item a 
+{
+    font-size: 20px;
+    padding: 20px 8px 10px;
+    text-align: right;
+}
+
+.nav-link:hover 
+{
+   color: darkblue; 
+}
+.nav-link:active
+{
+    color: white;
+}
+/* header */
+header
+{
+    background-color: darkgray;
+    border-style: solid;
+    margin: 0px 20px;
+   
+}
+
+.name
+{
+    font-size: 20px;
+    color: #007bff;
+    padding: 20px 5px 10px;
+    text-align: center;
+}
+
+h5
+{
+    color: #007bff;
+
+}
+
+/* bio */
+div.card.mb-3
+{
+    margin-top: 40px;
+    padding: 40px;
+}
+
+div.card
+{
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+
+/* footer */
+.box
+{ 
+   margin-top: 10%;
+    height: 80px;
+    width: 100%;
+    background-color: darkgray;
+    border-style: solid;
+    border-color: black;
+}
+
+#footerp
+{
+   text-align: center;
+}
+
